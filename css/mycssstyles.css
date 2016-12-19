@@ -1,0 +1,15 @@
+.jumbotron{
+   position: relative; 
+   width: 100%; /* for IE 6 */
+	position: relative;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 30px;
+  	font-size: 21px;
+  	text-align: center;
+  	background-image: url("../horse.jpg");
+    margin-top: 20px
+
+}
+
