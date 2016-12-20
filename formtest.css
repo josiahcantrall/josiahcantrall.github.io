@@ -76,7 +76,7 @@ body {
 }
 
 
-.jumbotron{
+.jumbotron {
     position: relative; 
     width: 100%; /* for IE 6 */
     height: auto;
@@ -84,9 +84,9 @@ body {
     padding-top: 170px;
     font-size: 35px;
     text-align: center;
-    color: #000000
-    background-image: url("collage2.jpg");
+    color: #FFFFFF;
     background-size: cover;
-
+    background-image: url("collage3.jpg");
+}
 
 
