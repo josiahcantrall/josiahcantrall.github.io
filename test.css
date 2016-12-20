@@ -1,0 +1,9 @@
+div.container {
+  width: 96%;
+  max-width: 1700px;
+  margin: 0 auto; /* to center the container */
+}
+img {
+  width: 100%;
+  height: auto;
+}
