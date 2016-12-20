@@ -76,27 +76,6 @@ body {
 }
 
 
-
-div.container {
-  width: 100%;
-  max-width: 2000px;
-  margin: 0 auto; /* to center the container */
-}
-img {
-  width: 100%;
-  height: auto;
-}
-
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-  font: 30px;
-  position: absolute;
-}
-
-
-
 .jumbotron{
     position: relative; 
     width: 100%; /* for IE 6 */
@@ -109,86 +88,5 @@ img {
     background-image: url("collage2.jpg");
     background-size: cover;
 
-}
-
-.image { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
-   text-align: center;
-   margin-top: 30px; 
-   margin-bottom: 30px;
-}
-
-h2 { 
-   position: relative; 
-   text-align: center;
-
-}
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-  margin-top: 80px;
-}
-.marketing h3 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
 
 
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-
-  @media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-
-
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
-  }
