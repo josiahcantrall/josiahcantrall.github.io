@@ -1,3 +1,13 @@
+.css-selector {
+  font-family: 'Font Name', 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(font-family: 'Montserrat', sans-serif;);
+}
+
+
 .formtest{
     width: 100%;
     padding: 12px 20px;
@@ -58,7 +68,6 @@ body {
   right: 0;
   left: 0;
   z-index: 20;
-  font-family: : Arial, 'Arial Unicode MS', Helvetica;
   font-size: 21px;
 }
 
