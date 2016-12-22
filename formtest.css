@@ -103,6 +103,6 @@ p.thick {
 }
 
 #logo {
-  height: 50px;
   vertical-align: left;
+  width: 100%;
 }
