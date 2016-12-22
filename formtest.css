@@ -68,7 +68,8 @@ body {
   right: 0;
   left: 0;
   z-index: 20;
-  font-size: 21px;
+  font-size: 18px;
+  text-transform: uppercase;
   float: right;
 }
 
