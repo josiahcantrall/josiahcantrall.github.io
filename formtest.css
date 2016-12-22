@@ -84,7 +84,6 @@ body {
   width: auto;
 }
 
-
 .jumbotron {
     position: relative; 
     width: 100%; /* for IE 6 */
@@ -101,4 +100,9 @@ body {
 
 p.thick {
     font-weight: bold;
+}
+
+#logo {
+  height: 50px;
+  vertical-align: left;
 }
