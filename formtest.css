@@ -109,13 +109,13 @@ p.thick {
   width: 100%;
 }
 
-.animated {
-    -webkit-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-}
+
 .jumbotron .bg-overlay {
-    height: auto;
     background: rgba(0,0,0,0.5);
     width: 100%;
+    margin-top: -9999px; 
+    padding-top: 9999px;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+
 }
