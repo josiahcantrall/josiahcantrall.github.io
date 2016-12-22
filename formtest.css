@@ -69,6 +69,7 @@ body {
   left: 0;
   z-index: 20;
   font-size: 21px;
+  float: right;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
