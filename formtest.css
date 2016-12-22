@@ -109,6 +109,9 @@ p.thick {
   width: 100%;
 }
 
+.fa{
+    float: none;
+}
 
 .jumbotron .bg-overlay {
     background: rgba(0,0,0,0.5);
