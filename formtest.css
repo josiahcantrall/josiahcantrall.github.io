@@ -115,9 +115,7 @@ p.thick {
     transition: all 1s ease;
 }
 .jumbotron .bg-overlay {
-    background: rgba(0,0,0,0);
-}
-.jumbotron:hover .bg-overlay {
     height: auto;
     background: rgba(0,0,0,0.5);
+    width: 100%;
 }
