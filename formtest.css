@@ -91,13 +91,13 @@ body {
     width: 100%; /* for IE 6 */
     height: auto;
     overflow: hidden;
-    padding-top: 170px;
-    padding-bottom: 180px;
+    padding-top: 225px;
+    padding-bottom: 125px;
     font-size: 35px;
     text-align: center;
     color: #FFFFFF;
     background-size: cover;
-    background-image: url("testimage.jpg");
+    background-image: url("noborders.jpg");
 }
 
 p.thick {
