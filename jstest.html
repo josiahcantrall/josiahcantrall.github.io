@@ -22,12 +22,32 @@ var width = 4;
 var areaOfTriangle = height*width/2;
 alert(areaOfTriangle);
 
+function triangleArea (height, width){
+  var areaOfTriangle = height*width/2;
+  return areaOfTriangle;
+}
+
+var area = triangleArea(4,4);
+alert(area);
+
 var x =5;
 if(x== 6){
   alert("true!");
   alert("x==6");
 } else {
   alert("false!");
+}
+
+
+switch(x){
+  case 1:
+  alert("value is 1");
+  break;
+  case 2:
+  alert("value is 2");
+  break;
+  default:
+  alert("it's some other number");
 }
 </script>
 </body>
