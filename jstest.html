@@ -2,33 +2,31 @@
 <html lang="en">
 <head>
 
-  <title>Java Script Demo.</title>
+  <title>Find Your Ancestor.</title>
 
 <body>
 
 <script>
 
-alert("Hello World");
+alert("Find Your Ancestor");
 
-5 + 5;
-
-var someNumber =5;
-
-var mathOperation = (2*2) + 4;
-alert(mathOperation);
-
-var height = 4;
-var width = 4;
-var areaOfTriangle = height*width/2;
-alert(areaOfTriangle);
-
-function triangleArea (height, width){
-  var areaOfTriangle = height*width/2;
-  return areaOfTriangle;
+function getfullname (first name, last name){
+  var getName = first name + last name;
+  return getName;
 }
 
-var area = triangleArea(4,4);
-alert(area);
+var fullName = getname(prompt("First Name:"), prompt("Last Name:"));
+alert("The Full Name is " + fullName);
+
+function changeColor(){
+  var red=Math.round(Math.random()*255);
+  var green=Math.round(Math.random()*255);
+  var blue=Math.round(Math.random()*255);
+  var myColor="rgb(" + red + "," + green + "," + blue +")";
+  document.body.style.backgroundColor=myColor;
+}
+
+window.setInterval(changeColor, 1000);
 
 var x =5;
 if(x== 6){
@@ -48,7 +46,21 @@ switch(x){
   break;
   default:
   alert("it's some other number");
+
+  function fn(){
+    console.log(z);
+    var z = 5;
+
+  }
 }
+
+find length of names jo, jon, jerry, donnie
+
+function ffln(jo, jon, jerry, donnie)
+
+
 </script>
 </body>
 </html>
+
+
