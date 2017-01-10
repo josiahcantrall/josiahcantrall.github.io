@@ -57,6 +57,11 @@ body {
   color: #5a5a5a;
 }
 
+.row {
+
+  margin-right:auto;
+  margin-left:auto;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
